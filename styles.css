@@ -2,66 +2,66 @@ body {
   background-color: #3d55a6;
   color: #ffffff; 
   font-family: 'Crimson Pro', serif;
-  transform: scale(1.5);
   transform-origin: 0 0;
+  margin-left: 35%;
+  margin-right: 45%;
 }
 
 h1 { 
-	font-size: 25px; 
+	font-size: 36px; 
 	font-weight: bold; 
 	letter-spacing: -1px; 
-	line-height: 1; 
-	text-align: left; 
 }
 
 h2 { 
-	font-size: 18px; 
-	font-weight: 300; 
-	line-height: 32px; 
-	margin: 0 0 10px; 
-	text-align: left; 
+  font-size: 24px; 
+  text-align: justify;
 }
 
 th {
-  width: 200px;
+  width: 100%;
   text-align: left;
 }
 
+
 select {
-	width: 50px;
+	width: 35%;
 }
 
 .result{
   visibility: hidden;
-  border: 2px solid #000000;
+  border: 3px solid #000000;
   background-color: lightgray;
   text-align: center;
   font-weight: bold; 
-  width: 250px;
   color: #000000; 
   padding: 10px 0px;
 }
 
+input{
+  width: 48%;
+}
+
+.tablel{
+  width: 40%;
+  text-align: left;
+}
+
+.tabler{
+  width: 20%;
+  text-align: right;
+}
 
 
 .button {
+  width: 48%;
   background-color: lightgray;
   padding: 0px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   border: 2px solid #000000;
-}
-
-
-.container_12 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    max-width: 600px;
-    min-width: 320px;
-    display: block;
 }
