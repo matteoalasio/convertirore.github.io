@@ -15,6 +15,13 @@ function conversione() {
   document.getElementById("risultato").style.visibility = "visible"; 
 }
 
+function pulisciInput() {
+	if (document.getElementById("mag").value == "Raggio") {
+		document.getElementById("mag").value="";
+		document.getElementById("angle").value="";
+	}
+}
+
 
 function pulisci() {
 	document.getElementById("risultato").style.visibility = "hidden"; 
