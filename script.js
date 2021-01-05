@@ -11,7 +11,7 @@ function conversione() {
   var factor = Math.pow(10, digit);
   var xr = Math.round(x*factor/xy_unit)/factor;
   var yr = Math.round(y*factor/xy_unit)/factor;
-  document.getElementById("risultato").innerHTML = "x: " + xr.toString() +"<br><br>y: " + yr.toString();
+  document.getElementById("risultato").innerHTML = "x = " + xr.toString() +"<br><br>y = " + yr.toString();
   document.getElementById("risultato").style.visibility = "visible"; 
 }
 
