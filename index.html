@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Convertitore</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+	<script src="script.js"></script> 
+	
+  </head>
+  <body class = "container_12">
+  <h1>Convertitore</h1>
+  <h2>Convertitore di coordinate polari in coordinate cartesiane</h2>
+	
+	<img src="grafico.jpg" width="200">
+	<br>
+	<input type="text" id="mag" autocomplete="off" value="Raggio">  
+	<input type="text" id="angle" autocomplete="off" value="Angolo (Gradi)"> 
+    <br>
+	<table>
+		<tr>
+			<td>Numero di cifre decimali:</td>
+			<td>
+				<select id ="digit">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3" selected>3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td> Unità di misura del raggio: </td>
+			<td>
+				<select id ="r_unit">
+					<option value="-3" selected>mm</option>
+					<option value="-2">cm</option>
+					<option value="-1">dm</option>
+					<option value="0">m</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td> Unità di misura delle coordinate:
+			</td>
+			<td>
+				<select id ="xy_unit">
+					<option value="-3" selected>mm</option>
+					<option value="-2">cm</option>
+					<option value="-1">dm</option>
+					<option value="0">m</option>
+				</select>
+			</td>
+		</tr>
+    </table> 
+	<br>
+		<button type="button" class="button" onclick="conversione()">Calcola</button>
+		<button type="button" class="button" onclick="pulisci()">Pulisci</button>
+	<br><br> 
+	<div id="risultato" class="result">
+	</div>
+
+  </body>
+</html>
